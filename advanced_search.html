@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <<head>                                      
+    <head>                                      
         <title>advanced_search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-         <div>
+        <div class="nav_links">
             <a href="index.html">Google search</a>
-         </div><br><br>
-         <div>
-            <h5>Find pages with...</h5>
-        <form action="https://google.com/search" method="get">
-            all these words<input type="text" name="as_q"><br>
-            this exact word or phrase <input type="text" name="as_epq"><br>
-            any of these words <input type="text" name="as_oq"><br>
-            none of these words <input type="text" name="as_eq"><br>
-            <input type="submit" value="advanced search">
+        </div>
+        <div>
+            <img src="image.png" alt="Google logo" width="100" height="33">
+            <h3>Advanced Search</h3>
+        </div>
+        <div>
+            <h4>Find pages with...</h4>
+            <form action="https://google.com/search" method="get">
+            <div>
+                <div class="container">
+                    <div style="flex-basis:30%" class="flex_item"><label size="50px">all these words</label></div>
+                    <div class="flex_item"><input type="search" name="as_q"></div>
+                </div>
+                <div class="container">
+                    <div style="flex-basis:30%" class="flex_item"><label>this exact word or phrase</label></div>
+                    <div class="flex_item"><input type="search" size="auto" name="as_epq"></div>
+                </div>     
+                <div class="container">
+                    <div style="flex-basis:30%" class="flex_item"><label>any of these words</label></div>
+                    <div class="flex_item"><input type="search" name="as_oq"></div>
+                </div>
+                <div class="container">
+                    <div style="flex-basis:30%" class="flex_item"><label>none of these words</label></div>
+                    <div class="flex_item"><input type="search" name="as_eq"></div>
+                </div> 
+                <div class="container">
+                    <div style="flex-basis:30%" class="flex_item"><label> </label></div>
+                    <div id="button_right" class="flex_item"><input type="submit" value="Advanced Search"></div>
+                </div> 
+            </div>
         </form><br>
-    </div>
+        </div>
 
     </body>
 </html>

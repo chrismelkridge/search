@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -10,11 +12,16 @@
             <a href="image_search.html">Image search</a>
             <a href="advanced_search.html">Advanced search</a>
         </div><br><br>
+        <div class="middle">
+            <img src="image.png" alt="Google logo" width="300" height="100">
+        </div><br>
 
-        <div>
+        <div class="middle">
+            
          <form action="https://www.google.com/search" method="get">
-            <input name="q" type="search" ><br>
-            <input type="submit" value="google search" class="search_button">
+            <input class="round" name="q" type="search" ><br>
+            <input type="submit" value="google search" id="search_button">
+            <input type="submit" name="btnI" value="I'm feeling lucky" id="lucky_button">
         </form> 
         </div>
     </body>
