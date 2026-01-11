@@ -8,10 +8,15 @@ I have done all of my styling in css without the use of bootstrap or other third
 ## index.html
 In this file I used  name ="q" in the search input and action went to www.google/search. To add some color to the page I included the google logo.
 
-## image_search.html.
-in this file I used name ="q"  and action went to www.google/images. I added google images icons to that page.
+## image.html.
+In this file I used name ="q"  and action went to www.google/images. I added google images icons to that page.
 
-## advanced_ search>
+## advanced.html>
+In this file there are four imputs; all of these words, name is "as_q"
+                                    this exact name or phrase, name is "as_epq"
+                                    any of these words, name is "as_oq"
+                                    and none of these words, name is "as_eq"
+All the names were taken from the qoogle advanced search page html.
 
 ## styles.css
 I used @media to alter the screen size for mobile devices as well as flexbox. 
